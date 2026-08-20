@@ -1384,3 +1384,9 @@ body{background:var(--ref-black)!important;color:var(--ref-white)!important;}
   .hero-premium h1{font-size:32px!important;}
   .hero-premium h2{font-size:18px!important;}
 }
+
+
+/* FINAL MOBILE HEADER + PRODUCTS FIX */
+@media (max-width: 760px){
+  .nav-toggle{display:none!important;}
+}
