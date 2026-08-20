@@ -529,3 +529,10 @@ form.contact-form{display:flex;flex-direction:column;gap:16px;}
   .benefit-card,.benefit-card:nth-child(2){border-right:none;border-bottom:1px solid var(--line-dark);}
   .benefit-card:last-child{border-bottom:none;}
 }
+
+
+/* Floating call button */
+.phone-float{position:fixed;left:22px;bottom:22px;width:56px;height:56px;border-radius:50%;background:#111827;display:flex;align-items:center;justify-content:center;z-index:9999;box-shadow:0 10px 28px rgba(0,0,0,.28);transition:transform .2s ease,box-shadow .2s ease;}
+.phone-float:hover{transform:scale(1.08);box-shadow:0 14px 34px rgba(0,0,0,.34);}
+.phone-float svg{width:27px;height:27px;fill:#fff;}
+@media(max-width:640px){.phone-float{left:16px;bottom:16px;width:52px;height:52px;}}

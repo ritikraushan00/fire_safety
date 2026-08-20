@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
       status.textContent = 'Opening WhatsApp with your enquiry filled in \u2014 just hit send there.';
       status.className = 'form-status show ok';
 
-      window.open('https://wa.me/917949090405?text=' + text, '_blank');
+      window.open('https://wa.me/918076786587?text=' + text, '_blank');
       form.reset();
     });
   }
